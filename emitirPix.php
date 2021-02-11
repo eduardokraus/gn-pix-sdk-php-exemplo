@@ -14,7 +14,7 @@ require "./montaBrCode.php";
 
 $tipo = "dinamico"; // Insira o tipo de QR Code que deseja gerar. Opções: dinamico ou estatico
 
-$tamanhoQrCode = "250"; // Insira o tamanho em pixels do QR Code que será gerado. Obs: Tamanho deve ser m sou igual a 256px
+$tamanhoQrCode = "250"; // Insira o tamanho em pixels do QR Code que será gerado. Obs: Tamanho deve ser maior ou igual a 256px
 
 $pagoUmaVez = false; // Insira se deseja que o QR Code pode ser pago uma única vez. Opções: true ou false
 
